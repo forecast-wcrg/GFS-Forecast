@@ -1608,12 +1608,23 @@
         function latLonToGridIndex(lat, lon) {
             if (!state.currentGrid) return null;
             if (!isInGFSDomain(lat, lon)) return null;
+            
             const grid = state.currentGrid;
+            
+            // Normalize latitude and longitude
             const latNorm = (lat - grid.lat_min) / (grid.lat_max - grid.lat_min);
             const lonNorm = (lon - grid.lon_min) / (grid.lon_max - grid.lon_min);
-            const array_i = Math.floor(latNorm * (grid.ny - 1));
+            
+            // CRITICAL FIX: Grid data is stored from top (max lat) to bottom (min lat)
+            // So we need to flip the latitude index
+            const array_i = Math.floor((1 - latNorm) * (grid.ny - 1));
             const array_j = Math.floor(lonNorm * (grid.nx - 1));
-            return { i: Math.max(0, Math.min(array_i, grid.ny - 1)), j: Math.max(0, Math.min(array_j, grid.nx - 1)) };
+            
+            // Ensure indices are within bounds
+            return { 
+                i: Math.max(0, Math.min(array_i, grid.ny - 1)), 
+                j: Math.max(0, Math.min(array_j, grid.nx - 1)) 
+            };
         }
 
         function getValueAtCoordinates(lat, lon) {
@@ -2784,3 +2795,4 @@
 </body>
 
 </html>
+
