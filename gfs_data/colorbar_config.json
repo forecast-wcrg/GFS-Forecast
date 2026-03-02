@@ -2,8 +2,8 @@
   "T2": {
     "name": "T2",
     "display_name": "2m Temperature",
-    "colorbar_min": -10.0,
-    "colorbar_max": 36.0,
+    "colorbar_min": -11.0,
+    "colorbar_max": 37.0,
     "unit": "\u00b0C",
     "cmap": "coolwarm",
     "icon": "fa-thermometer-half"
@@ -11,7 +11,7 @@
   "RH": {
     "name": "RH",
     "display_name": "Relative Humidity",
-    "colorbar_min": 8.0,
+    "colorbar_min": 7.0,
     "colorbar_max": 97.0,
     "unit": "%",
     "cmap": "viridis",
@@ -21,7 +21,7 @@
     "name": "WIND",
     "display_name": "Wind Speed",
     "colorbar_min": 0.0,
-    "colorbar_max": 12.0,
+    "colorbar_max": 11.0,
     "unit": "m/s",
     "cmap": "hot_r",
     "icon": "fa-wind"
