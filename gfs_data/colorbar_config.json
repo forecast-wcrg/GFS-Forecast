@@ -11,7 +11,7 @@
   "RH": {
     "name": "RH",
     "display_name": "Relative Humidity",
-    "colorbar_min": 9.0,
+    "colorbar_min": 10.0,
     "colorbar_max": 96.0,
     "unit": "%",
     "cmap": "viridis",
