@@ -3,8 +3,8 @@
   "name": "Relative Humidity",
   "unit": "%",
   "icon": "fa-tint",
-  "colorbar_min": 10.0,
-  "colorbar_max": 96.0,
+  "colorbar_min": 9.0,
+  "colorbar_max": 97.0,
   "tick_step": 10,
   "cmap": "viridis",
   "forecast_hours": [
