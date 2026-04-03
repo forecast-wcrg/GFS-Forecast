@@ -88,8 +88,8 @@
       "name": "2m Temperature",
       "unit": "\u00b0C",
       "icon": "fa-thermometer-half",
-      "colorbar_min": -7.0,
-      "colorbar_max": 37.0,
+      "colorbar_min": -8.0,
+      "colorbar_max": 38.0,
       "tick_step": 5,
       "cmap": "coolwarm",
       "forecast_hours": [
@@ -178,8 +178,8 @@
       "name": "Relative Humidity",
       "unit": "%",
       "icon": "fa-tint",
-      "colorbar_min": 13.0,
-      "colorbar_max": 97.0,
+      "colorbar_min": 10.0,
+      "colorbar_max": 96.0,
       "tick_step": 10,
       "cmap": "viridis",
       "forecast_hours": [
@@ -359,7 +359,7 @@
       "unit": "mm",
       "icon": "fa-cloud-rain",
       "colorbar_min": 0.0,
-      "colorbar_max": 150.0,
+      "colorbar_max": 200.0,
       "tick_step": 5,
       "cmap": "Blues",
       "forecast_hours": [
