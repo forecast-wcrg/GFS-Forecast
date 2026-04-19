@@ -3,7 +3,7 @@
     "name": "T2",
     "display_name": "2m Temperature",
     "colorbar_min": -4.0,
-    "colorbar_max": 41.0,
+    "colorbar_max": 40.0,
     "unit": "\u00b0C",
     "cmap": "coolwarm",
     "icon": "fa-thermometer-half"
@@ -21,7 +21,7 @@
     "name": "WIND",
     "display_name": "Wind Speed",
     "colorbar_min": 0.0,
-    "colorbar_max": 10.0,
+    "colorbar_max": 11.0,
     "unit": "m/s",
     "cmap": "hot_r",
     "icon": "fa-wind"
