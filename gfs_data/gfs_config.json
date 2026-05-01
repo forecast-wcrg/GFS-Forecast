@@ -88,7 +88,7 @@
       "name": "2m Temperature",
       "unit": "\u00b0C",
       "icon": "fa-thermometer-half",
-      "colorbar_min": -4.0,
+      "colorbar_min": -3.0,
       "colorbar_max": 41.0,
       "tick_step": 5,
       "cmap": "coolwarm",
@@ -359,7 +359,7 @@
       "unit": "mm",
       "icon": "fa-cloud-rain",
       "colorbar_min": 0.0,
-      "colorbar_max": 300.0,
+      "colorbar_max": 250.0,
       "tick_step": 5,
       "cmap": "Blues",
       "forecast_hours": [
