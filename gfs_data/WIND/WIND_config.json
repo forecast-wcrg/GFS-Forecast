@@ -4,7 +4,7 @@
   "unit": "m/s",
   "icon": "fa-wind",
   "colorbar_min": 0.0,
-  "colorbar_max": 12.0,
+  "colorbar_max": 13.0,
   "tick_step": 2,
   "cmap": "hot_r",
   "forecast_hours": [

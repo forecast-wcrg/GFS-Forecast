@@ -3,7 +3,7 @@
   "name": "2m Temperature",
   "unit": "\u00b0C",
   "icon": "fa-thermometer-half",
-  "colorbar_min": -4.0,
+  "colorbar_min": -3.0,
   "colorbar_max": 41.0,
   "tick_step": 5,
   "cmap": "coolwarm",
