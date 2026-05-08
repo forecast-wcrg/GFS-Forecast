@@ -179,7 +179,7 @@
       "unit": "%",
       "icon": "fa-tint",
       "colorbar_min": 7.0,
-      "colorbar_max": 97.0,
+      "colorbar_max": 98.0,
       "tick_step": 10,
       "cmap": "viridis",
       "forecast_hours": [
@@ -269,7 +269,7 @@
       "unit": "m/s",
       "icon": "fa-wind",
       "colorbar_min": 0.0,
-      "colorbar_max": 14.0,
+      "colorbar_max": 13.0,
       "tick_step": 2,
       "cmap": "hot_r",
       "forecast_hours": [
@@ -359,7 +359,7 @@
       "unit": "mm",
       "icon": "fa-cloud-rain",
       "colorbar_min": 0.0,
-      "colorbar_max": 550.0,
+      "colorbar_max": 400.0,
       "tick_step": 5,
       "cmap": "Blues",
       "forecast_hours": [
