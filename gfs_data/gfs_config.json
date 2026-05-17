@@ -89,7 +89,7 @@
       "unit": "\u00b0C",
       "icon": "fa-thermometer-half",
       "colorbar_min": 0.0,
-      "colorbar_max": 44.0,
+      "colorbar_max": 43.0,
       "tick_step": 5,
       "cmap": "coolwarm",
       "forecast_hours": [
@@ -359,7 +359,7 @@
       "unit": "mm",
       "icon": "fa-cloud-rain",
       "colorbar_min": 0.0,
-      "colorbar_max": 450.0,
+      "colorbar_max": 350.0,
       "tick_step": 5,
       "cmap": "Blues",
       "forecast_hours": [
