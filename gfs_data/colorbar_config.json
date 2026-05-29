@@ -21,7 +21,7 @@
     "name": "WIND",
     "display_name": "Wind Speed",
     "colorbar_min": 0.0,
-    "colorbar_max": 14.0,
+    "colorbar_max": 13.0,
     "unit": "m/s",
     "cmap": "hot_r",
     "icon": "fa-wind"
