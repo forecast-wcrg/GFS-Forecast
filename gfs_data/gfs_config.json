@@ -269,7 +269,7 @@
       "unit": "m/s",
       "icon": "fa-wind",
       "colorbar_min": 0.0,
-      "colorbar_max": 14.0,
+      "colorbar_max": 15.0,
       "tick_step": 2,
       "cmap": "hot_r",
       "forecast_hours": [
@@ -359,7 +359,7 @@
       "unit": "mm",
       "icon": "fa-cloud-rain",
       "colorbar_min": 0.0,
-      "colorbar_max": 350.0,
+      "colorbar_max": 250.0,
       "tick_step": 5,
       "cmap": "Blues",
       "forecast_hours": [
