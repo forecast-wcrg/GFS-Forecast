@@ -46114,10 +46114,12 @@
       4.940000057220459
     ]
   ],
-  "colorbar_min": 0.0,
-  "colorbar_max": 350.0,
+  "colorbar_min": 0.001,
+  "colorbar_max": 11.875,
   "unit": "mm",
   "variable": "RAIN",
   "forecast_hour": 60,
-  "crs": "EPSG:4326"
+  "crs": "EPSG:4326",
+  "use_log_scale": true,
+  "log_linear_threshold": 1.0
 }

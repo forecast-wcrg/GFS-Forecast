@@ -46119,5 +46119,7 @@
   "unit": "m/s",
   "variable": "WIND",
   "forecast_hour": 276,
-  "crs": "EPSG:4326"
+  "crs": "EPSG:4326",
+  "use_log_scale": false,
+  "log_linear_threshold": null
 }

@@ -10,5 +10,7 @@
     "height_inches": 2,
     "tick_fontsize": 16,
     "title_fontsize": 18
-  }
+  },
+  "use_log_scale": false,
+  "log_linear_threshold": null
 }

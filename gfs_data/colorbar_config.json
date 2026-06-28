@@ -6,7 +6,9 @@
     "colorbar_max": 43.0,
     "unit": "\u00b0C",
     "cmap": "coolwarm",
-    "icon": "fa-thermometer-half"
+    "icon": "fa-thermometer-half",
+    "use_log_scale": false,
+    "log_linear_threshold": null
   },
   "RH": {
     "name": "RH",
@@ -15,7 +17,9 @@
     "colorbar_max": 99.0,
     "unit": "%",
     "cmap": "viridis",
-    "icon": "fa-tint"
+    "icon": "fa-tint",
+    "use_log_scale": false,
+    "log_linear_threshold": null
   },
   "WIND": {
     "name": "WIND",
@@ -24,6 +28,8 @@
     "colorbar_max": 15.0,
     "unit": "m/s",
     "cmap": "hot_r",
-    "icon": "fa-wind"
+    "icon": "fa-wind",
+    "use_log_scale": false,
+    "log_linear_threshold": null
   }
 }

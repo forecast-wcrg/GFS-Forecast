@@ -46119,5 +46119,7 @@
   "unit": "%",
   "variable": "RH",
   "forecast_hour": 162,
-  "crs": "EPSG:4326"
+  "crs": "EPSG:4326",
+  "use_log_scale": false,
+  "log_linear_threshold": null
 }
