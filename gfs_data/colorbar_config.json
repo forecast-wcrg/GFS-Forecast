@@ -13,7 +13,7 @@
   "RH": {
     "name": "RH",
     "display_name": "Relative Humidity",
-    "colorbar_min": 7.0,
+    "colorbar_min": 6.0,
     "colorbar_max": 99.0,
     "unit": "%",
     "cmap": "viridis",
@@ -25,7 +25,7 @@
     "name": "WIND",
     "display_name": "Wind Speed",
     "colorbar_min": 0.0,
-    "colorbar_max": 15.0,
+    "colorbar_max": 16.0,
     "unit": "m/s",
     "cmap": "hot_r",
     "icon": "fa-wind",
