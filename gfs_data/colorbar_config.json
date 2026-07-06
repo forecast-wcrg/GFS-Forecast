@@ -2,7 +2,7 @@
   "T2": {
     "name": "T2",
     "display_name": "2m Temperature",
-    "colorbar_min": 5.0,
+    "colorbar_min": 6.0,
     "colorbar_max": 44.0,
     "unit": "\u00b0C",
     "cmap": "coolwarm",
@@ -25,7 +25,7 @@
     "name": "WIND",
     "display_name": "Wind Speed",
     "colorbar_min": 0.0,
-    "colorbar_max": 16.0,
+    "colorbar_max": 15.0,
     "unit": "m/s",
     "cmap": "hot_r",
     "icon": "fa-wind",
