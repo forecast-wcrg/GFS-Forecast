@@ -1212,9 +1212,6 @@
                 <a href="https://mausamdrishti-uk.pages.dev/" target="_blank" class="bottom-link" style="background:linear-gradient(135deg,rgba(170,255,100,0.1),rgba(0,255,255,0.1));border-color:rgba(170,255,100,0.3);color:var(--accent-lime);">
                     🌧️ WCRG-UK Forecast
                 </a>
-                <a href="https://mausamdrishti-icon.pages.dev/" target="_blank" class="bottom-link" style="background:linear-gradient(135deg,rgba(170,255,100,0.1),rgba(0,255,255,0.1));border-color:rgba(170,255,100,0.3);color:var(--accent-lime);">
-                    🌏 ICON Forecast
-                </a>
             </div>
             <div style="margin-top:10px; text-align:center; font-size:0.72rem; color:var(--text-dim); font-family:var(--font-mono);">
                 © <span id="currentYear"></span> weatherxplorers.com
